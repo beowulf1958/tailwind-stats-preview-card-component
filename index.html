@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="bg-dark-blue text-white font-inter flex flex-col items-center justify-center min-h-screen">
+  <article class="bg-faded-blue w-[95%] md:max-w-[1110px] md:flex md:flex-row-reverse rounded-md overflow-hidden mb-3">
+
+    <section class="hero relative">
+      <picture>
+        <source media="(max-width: 400px)" srcset="./images/image-header-mobile.jpg">
+        <img  src="./images/image-header-desktop.jpg" alt="Women on laptops collaborating at work">
+      </picture>
+    </section>
+
+    <section class="pt-3 px-8 gap-3 flex flex-col items-center justify-center md:w-[576px] text-center">
+      <h1 class="text-mobile font-bold">Get <span class="text-soft-violet">insights</span> that help your business grow.</h1>
+      <p class="text-main text-white-75">
+        Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.
+      </p>
+      <div class="text-xs text-white-60 md:flex md:gap-8">
+        <p><span class="text-white text-2xl font-bold">10+</span><br> companies</p>
+        <p><span class="text-white text-2xl font-bold">314</span><br> templates</p>
+        <p><span class="text-white text-2xl font-bold">12m+</span><br> queries</p>
+      </div>
+    </section>
+
+  </article>
+
+  <div class="text-xs text-center">
+    Challenge by <a class="text-green-400 hover:text-rose-400" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="text-green-400 hover:text-rose-400" href="https://www.frontendmentor.io/profile/beowulf1958">Jordan Murrin</a>.
+  </div>
+</body>
+</html>
