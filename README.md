@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://tailwind-stats-preview.netlify.app/)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/stats-preview-using-tailwind-css-MJRRQEd7XW)
+- Live Site URL: [Live site URL here](https://tailwind-stats-preview.netlify.app/)
 
 ## My process
 
